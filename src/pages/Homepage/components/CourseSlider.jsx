@@ -9,9 +9,9 @@ export default function CourseSlider() {
       {/* Course Slider Div */}
       <div className="flex h-[300px] gap-4 overflow-x-scroll pb-2">
         {/* Item div */}
-        {tempArr.map(() => {
+        {tempArr.map((item, index) => {
           return (
-            <div className="h-full w-[275px] shrink-0 bg-slate-200">
+            <div className="h-full w-[275px] shrink-0 bg-slate-200" key={index}>
               <div className="h-1/2 w-full">
                 <img src={img1} alt="" className="object-cover h-full w-full" />
               </div>

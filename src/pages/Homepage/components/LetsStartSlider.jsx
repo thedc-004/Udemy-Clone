@@ -8,9 +8,12 @@ export default function LetsStarSlider() {
       <h2 className="text-3xl font-semibold mb-5">Let's start learning</h2>
       {/* Slider Item */}
       <div className="flex overflow-x-scroll gap-4 pb-2">
-        {tempArr.map(() => {
+        {tempArr.map((item, index) => {
           return (
-            <div className="w-[400px] h-[150px] border-slate-500 border flex shrink-0">
+            <div
+              className="w-[400px] h-[150px] border-slate-500 border flex shrink-0"
+              key={index}
+            >
               <div className="w-1/3 h-full relative">
                 <img src={img1} alt="" className="h-full w-full object-cover" />
                 <div className="absolute top-0 h-full w-full flex justify-center items-center">

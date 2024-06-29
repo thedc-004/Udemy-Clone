@@ -1,5 +1,5 @@
 import React, { StrictMode } from "react";
-import ReactDOM from "react-dom";
+import ReactDOM from "react-dom/client";
 import Homepage from "./src/pages/Homepage/HomePage";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import ProfilePage from "./src/pages/ProfilePage/ProfilePage";

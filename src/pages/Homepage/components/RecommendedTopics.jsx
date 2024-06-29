@@ -17,9 +17,12 @@ export default function RecommendedTopics() {
         Recommended Courses For You
       </h2>
       <div className="flex gap-5 flex-wrap">
-        {topicsArr.map((item) => {
+        {topicsArr.map((item, index) => {
           return (
-            <div className="w-1/6 h-16 p-5 bg-slate-300 flex items-center justify-center">
+            <div
+              className="w-1/6 h-16 p-5 bg-slate-300 flex items-center justify-center"
+              key={index}
+            >
               {item}
             </div>
           );

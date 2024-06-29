@@ -13,8 +13,10 @@ export default function SubHeader() {
   ];
   return (
     <div className="flex gap-3 justify-center shadow-slate-300 shadow-lg">
-      {subMenu.map((item) => (
-        <div className="p-3">{item}</div>
+      {subMenu.map((item, index) => (
+        <div className="p-3" key={index}>
+          {item}
+        </div>
       ))}
     </div>
   );
