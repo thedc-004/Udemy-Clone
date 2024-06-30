@@ -1,7 +1,7 @@
 import logo from "../../assets/logo-udemy.svg";
 export default function Footer() {
   return (
-    <div className="flex justify-between bg-gray-700 px-12 py-6 text-slate-200">
+    <div className="flex justify-between h-[20vh] bg-slate-900 px-12 py-6 text-slate-200">
       <div className="flex gap-10 mb-10">
         <ul>
           <li>Udemy Business</li>

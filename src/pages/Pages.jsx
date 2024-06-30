@@ -5,10 +5,8 @@ import Footer from "./common Components/Footer";
 export default function Pages() {
   return (
     <div>
-      <div>
-        <Header />
-        <Outlet />
-      </div>
+      <Header />
+      <Outlet />
       <Footer />
     </div>
   );
