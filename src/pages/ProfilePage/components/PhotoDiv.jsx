@@ -1,3 +1,12 @@
+import Header from "./Header";
+
 export default function PhotoDiv() {
-  return <div>Photo Div</div>;
+  return (
+    <div>
+      <Header
+        heading={"Photo"}
+        description={"Add a nice photo of yourself for your profile."}
+      />
+    </div>
+  );
 }

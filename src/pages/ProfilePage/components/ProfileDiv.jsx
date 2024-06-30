@@ -1,10 +1,12 @@
+import Header from "./Header";
+
 export default function BottomRightProfileDiv() {
   return (
     <>
-      <div className="border-b-slate-500 border-b text-center py-3">
-        <h2 className="text-3xl font-semibold mb-1">Public profile</h2>
-        <p>Add information about yourself</p>
-      </div>
+      <Header
+        heading={"Public profile"}
+        description={"Add information about yourself"}
+      />
       <div className="mx-[15%] my-5">
         <div className="flex flex-col gap-2">
           <h5 className="font-medium">Basics:</h5>

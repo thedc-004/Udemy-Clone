@@ -1,3 +1,13 @@
+import Header from "./Header";
+
 export default function Privacy() {
-  return <div>Privacy</div>;
+  return (
+    <div>
+      <Header
+        heading={"Privacy"}
+        description={"Modify your privacy settings here."}
+      />
+      Privacy
+    </div>
+  );
 }
