@@ -1,3 +1,9 @@
+import HeadCard from "./HeadCard";
+
 export default function CoursePage() {
-  return <div>CoursePage</div>;
+  return (
+    <div>
+      <HeadCard />
+    </div>
+  );
 }
