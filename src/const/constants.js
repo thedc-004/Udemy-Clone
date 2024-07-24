@@ -1,4 +1,3 @@
-// eslint-disable-next-line import/prefer-default-export
 export const courseContentArr = [
   {
     title: "Front-End Web Development",
@@ -54,4 +53,11 @@ export const courseContentArr = [
       },
     ],
   },
+];
+
+export const prerequisiteArr = [
+  "No programming experience needed - I'll teach you everything you need to know",
+  "A computer with access to the internet",
+  "No paid software required",
+  "I'll walk you through, step-by-step how to get all the software installed and set up",
 ];

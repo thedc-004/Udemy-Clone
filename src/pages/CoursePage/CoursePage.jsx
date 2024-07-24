@@ -2,6 +2,7 @@ import TopicCard from "./components/SkillsCard";
 import HeadCard from "./components/HeadCard";
 import FeatureCard from "./components/FeatureCard";
 import CourseContent from "./components/CourseContent";
+import Prerequisite from "./components/Prerequisite";
 
 export default function CoursePage() {
   return (
@@ -11,6 +12,7 @@ export default function CoursePage() {
         <TopicCard />
         <FeatureCard />
         <CourseContent />
+        <Prerequisite />
       </div>
     </div>
   );
