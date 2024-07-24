@@ -3,6 +3,7 @@ import HeadCard from "./components/HeadCard";
 import FeatureCard from "./components/FeatureCard";
 import CourseContent from "./components/CourseContent";
 import Prerequisite from "./components/Prerequisite";
+import Description from "./components/Description";
 
 export default function CoursePage() {
   return (
@@ -13,6 +14,7 @@ export default function CoursePage() {
         <FeatureCard />
         <CourseContent />
         <Prerequisite />
+        <Description />
       </div>
     </div>
   );
