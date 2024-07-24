@@ -10,7 +10,7 @@ export default function HeadCard() {
         Master Python by building 100 projects in 100 days. Learn data science,
         automation, build websites, games and apps!
       </p>
-      <p className="flex">
+      <div className="flex">
         <span>5</span>
         <span className="ml-1 mr-2 flex items-center">
           <IoStarSharp className="inline" />
@@ -31,7 +31,7 @@ export default function HeadCard() {
           </a>
           <span>1,330,168 students</span>
         </div>
-      </p>
+      </div>
       <div className="mt-3">Created by Dr. Angela Yu</div>
     </div>
   );
