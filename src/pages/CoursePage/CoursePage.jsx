@@ -19,3 +19,6 @@ export default function CoursePage() {
     </div>
   );
 }
+
+// TODO:  1) To Create Instructor section
+//        2) to create Buy Card
